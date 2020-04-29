@@ -1,8 +1,6 @@
-<p>hero-detail works!</p>
+<div *ngIf="hero" class="heroes_detail">
 
-<div *ngIf="hero">
-
-  <h1>{{hero.name|uppercase}} Hero details</h1>
+  <h2>{{hero.name|uppercase}} Hero details</h2>
   <div><span>id: </span>{{hero.id}}</div>
 
   <div>
